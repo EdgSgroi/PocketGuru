@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2FBDB62448DFA400E296B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FBDB52448DFA400E296B4 /* AppDelegate.swift */; };
+		4F2FBDB82448DFA400E296B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FBDB72448DFA400E296B4 /* SceneDelegate.swift */; };
+		4F2FBDBD2448DFA400E296B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FBDBB2448DFA400E296B4 /* Main.storyboard */; };
+		4F2FBDBF2448DFA600E296B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FBDBE2448DFA600E296B4 /* Assets.xcassets */; };
+		4F2FBDC22448DFA600E296B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FBDC02448DFA600E296B4 /* LaunchScreen.storyboard */; };
+		4F2FBDCE2448E00300E296B4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FBDCD2448E00300E296B4 /* MasterViewController.swift */; };
+		4F2FBDD22448E14500E296B4 /* AdviceAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FBDD12448E14500E296B4 /* AdviceAPIService.swift */; };
+		4F2FBDD42448E1A000E296B4 /* Advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FBDD32448E1A000E296B4 /* Advice.swift */; };
+		4F2FBDD62448E1E500E296B4 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FBDD52448E1E500E296B4 /* Response.swift */; };
+		4F2FBDD82448E27000E296B4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FBDD72448E27000E296B4 /* ViewModel.swift */; };
+		4F2FBDDC244A31D800E296B4 /* PocketGuruSoundTrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FBDDB244A31D800E296B4 /* PocketGuruSoundTrack.mp3 */; };
+		4F2FBDDE244A3BCD00E296B4 /* GuruVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FBDDD244A3BCC00E296B4 /* GuruVoice.mp3 */; };
+		4F2FBDE0244A3CBC00E296B4 /* GuruVoice2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FBDDF244A3CBC00E296B4 /* GuruVoice2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F2FBDB22448DFA400E296B4 /* Pocket Guru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Guru.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2FBDB52448DFA400E296B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F2FBDB72448DFA400E296B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F2FBDBC2448DFA400E296B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F2FBDBE2448DFA600E296B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F2FBDC12448DFA600E296B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F2FBDC32448DFA600E296B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2FBDCD2448E00300E296B4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4F2FBDD12448E14500E296B4 /* AdviceAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceAPIService.swift; sourceTree = "<group>"; };
+		4F2FBDD32448E1A000E296B4 /* Advice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advice.swift; sourceTree = "<group>"; };
+		4F2FBDD52448E1E500E296B4 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4F2FBDD72448E27000E296B4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4F2FBDDB244A31D800E296B4 /* PocketGuruSoundTrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PocketGuruSoundTrack.mp3; sourceTree = "<group>"; };
+		4F2FBDDD244A3BCC00E296B4 /* GuruVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GuruVoice.mp3; sourceTree = "<group>"; };
+		4F2FBDDF244A3CBC00E296B4 /* GuruVoice2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GuruVoice2.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F2FBDAF2448DFA400E296B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2FBDA92448DFA400E296B4 = {
+			isa = PBXGroup;
+			children = (
+				4F2FBDB42448DFA400E296B4 /* Master's Advices */,
+				4F2FBDB32448DFA400E296B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F2FBDB32448DFA400E296B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FBDB22448DFA400E296B4 /* Pocket Guru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F2FBDB42448DFA400E296B4 /* Master's Advices */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FBDCB2448DFC700E296B4 /* ViewControllers */,
+				4F2FBDCC2448DFD700E296B4 /* ViewModels */,
+				4F2FBDCA2448DFBC00E296B4 /* Models */,
+				4F2FBDC92448DFB300E296B4 /* Services */,
+				4F2FBDB52448DFA400E296B4 /* AppDelegate.swift */,
+				4F2FBDB72448DFA400E296B4 /* SceneDelegate.swift */,
+				4F2FBDBB2448DFA400E296B4 /* Main.storyboard */,
+				4F2FBDBE2448DFA600E296B4 /* Assets.xcassets */,
+				4F2FBDC02448DFA600E296B4 /* LaunchScreen.storyboard */,
+				4F2FBDC32448DFA600E296B4 /* Info.plist */,
+				4F2FBDDB244A31D800E296B4 /* PocketGuruSoundTrack.mp3 */,
+				4F2FBDDD244A3BCC00E296B4 /* GuruVoice.mp3 */,
+				4F2FBDDF244A3CBC00E296B4 /* GuruVoice2.mp3 */,
+			);
+			path = "Master's Advices";
+			sourceTree = "<group>";
+		};
+		4F2FBDC92448DFB300E296B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FBDD12448E14500E296B4 /* AdviceAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4F2FBDCA2448DFBC00E296B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FBDD32448E1A000E296B4 /* Advice.swift */,
+				4F2FBDD52448E1E500E296B4 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F2FBDCB2448DFC700E296B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FBDCD2448E00300E296B4 /* MasterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4F2FBDCC2448DFD700E296B4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FBDD72448E27000E296B4 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F2FBDB12448DFA400E296B4 /* Master's Advices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2FBDC62448DFA600E296B4 /* Build configuration list for PBXNativeTarget "Master's Advices" */;
+			buildPhases = (
+				4F2FBDAE2448DFA400E296B4 /* Sources */,
+				4F2FBDAF2448DFA400E296B4 /* Frameworks */,
+				4F2FBDB02448DFA400E296B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Master's Advices";
+			productName = "Master's Advices";
+			productReference = 4F2FBDB22448DFA400E296B4 /* Pocket Guru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F2FBDAA2448DFA400E296B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Edgar Sgroi";
+				TargetAttributes = {
+					4F2FBDB12448DFA400E296B4 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 4F2FBDAD2448DFA400E296B4 /* Build configuration list for PBXProject "Master's Advices" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F2FBDA92448DFA400E296B4;
+			productRefGroup = 4F2FBDB32448DFA400E296B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F2FBDB12448DFA400E296B4 /* Master's Advices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F2FBDB02448DFA400E296B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2FBDC22448DFA600E296B4 /* LaunchScreen.storyboard in Resources */,
+				4F2FBDDC244A31D800E296B4 /* PocketGuruSoundTrack.mp3 in Resources */,
+				4F2FBDDE244A3BCD00E296B4 /* GuruVoice.mp3 in Resources */,
+				4F2FBDBF2448DFA600E296B4 /* Assets.xcassets in Resources */,
+				4F2FBDBD2448DFA400E296B4 /* Main.storyboard in Resources */,
+				4F2FBDE0244A3CBC00E296B4 /* GuruVoice2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F2FBDAE2448DFA400E296B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2FBDCE2448E00300E296B4 /* MasterViewController.swift in Sources */,
+				4F2FBDB62448DFA400E296B4 /* AppDelegate.swift in Sources */,
+				4F2FBDB82448DFA400E296B4 /* SceneDelegate.swift in Sources */,
+				4F2FBDD22448E14500E296B4 /* AdviceAPIService.swift in Sources */,
+				4F2FBDD42448E1A000E296B4 /* Advice.swift in Sources */,
+				4F2FBDD82448E27000E296B4 /* ViewModel.swift in Sources */,
+				4F2FBDD62448E1E500E296B4 /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F2FBDBB2448DFA400E296B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F2FBDBC2448DFA400E296B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F2FBDC02448DFA600E296B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F2FBDC12448DFA600E296B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F2FBDC42448DFA600E296B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F2FBDC52448DFA600E296B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F2FBDC72448DFA600E296B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JG72P729;
+				INFOPLIST_FILE = "Master's Advices/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edgarsgroi.Master-s-Advices";
+				PRODUCT_NAME = "Pocket Guru";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4F2FBDC82448DFA600E296B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JG72P729;
+				INFOPLIST_FILE = "Master's Advices/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edgarsgroi.Master-s-Advices";
+				PRODUCT_NAME = "Pocket Guru";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F2FBDAD2448DFA400E296B4 /* Build configuration list for PBXProject "Master's Advices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2FBDC42448DFA600E296B4 /* Debug */,
+				4F2FBDC52448DFA600E296B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2FBDC62448DFA600E296B4 /* Build configuration list for PBXNativeTarget "Master's Advices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2FBDC72448DFA600E296B4 /* Debug */,
+				4F2FBDC82448DFA600E296B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F2FBDAA2448DFA400E296B4 /* Project object */;
+}
